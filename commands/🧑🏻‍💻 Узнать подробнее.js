@@ -20,7 +20,8 @@ Api.sendVideo({
 var video2 = Bot.getProperty("video3");
 
 Api.sendVideo({
-  video: video2
+  video: video2,
+  caption: "Смотри это видео, чтобы понять как тут можно заработать и почему тебе это надо."
 });
 
 Bot.sendMessage("☎️ По всем вопросам пишите: @XXXPHANTOM_SUPPORT");

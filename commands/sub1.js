@@ -50,6 +50,6 @@ Bot.setProperty("Subscribe:" + user.telegramid + "", days - 1);
 
 Bot.run( {
     command: "sub1",
-    run_after: 60*60*24*10,
+    run_after: 60*60*24,
     label: "sub"
  } )

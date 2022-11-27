@@ -10,9 +10,9 @@
 CMD*/
 
 if (User.getProperty("buy") == 11){
- Bot.sendMessage("⚠️ Временно недоступно, находится на доработке. ⚠️");
  Bot.runCommand("Вывод");
 } else {
+ Bot.sendMessage("⚠️ Временно недоступно, но Вы можете оплатить в крипте. ⚠️");
 Bot.sendMessage("⬇️ Пошаговая интрукция: ⬇️");
 
 var video1 = Bot.getProperty("video1");
